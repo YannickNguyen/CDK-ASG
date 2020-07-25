@@ -1,5 +1,5 @@
 
-# Welcome to your CDK Python project!
+# CDK Take Home Assignment
 
 This was my first time using AWS CDK and there was a learning curve in order to understand the product. This required reading the documentation provided in order to understand the syntax.
 
