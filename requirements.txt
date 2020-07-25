@@ -1,1 +1,6 @@
 -e .
+aws-cdk.aws-s3==1.54.0
+aws-cdk.aws-ec2==1.54.0
+aws_cdk.aws_autoscaling==1.54.0
+aws-cdk.aws-applicationautoscaling==1.54.0
+aws_cdk.aws_elasticloadbalancingv2==1.54.0
