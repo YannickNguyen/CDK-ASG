@@ -1,7 +1,25 @@
 
 # Welcome to your CDK Python project!
 
-This is a blank project for Python development with CDK.
+This was my first time using AWS CDK and there was a learning curve in order to understand the product. This required reading the documentation provided in order to understand the syntax.
+
+
+Issues:
+A pain point in trying out AWS CDK was getting the proper environment variables set up. My current setup is Mac OS and I was running node version of 8.X.X.
+
+
+Explanation of code:
+In order to streamline the module installation process, I’ve included all the aws-cdk modules in requirements.txt as it was tedious to run pip install for all of them
+
+There is a basic HTML page on each instance to show a basic web application running. This is created through httpd.sh bash script and will show the hostname of the instance. I’ve commented on the code to give a brief explanation of what is happening.
+
+After running cdk deploy there will be a loadbalance URL that you can click on to see your instances running. 
+
+
+Ways to improve:
+
+Instead of setting up all my environment variables locally it would have been more efficient to either use Cloud9 or even set this up in a docker container.
+
 
 The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
@@ -55,4 +73,6 @@ command.
  * `cdk diff`        compare deployed stack with current state
  * `cdk docs`        open CDK documentation
 
-Enjoy!
+
+
+
